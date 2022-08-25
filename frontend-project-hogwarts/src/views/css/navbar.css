@@ -1,0 +1,15 @@
+
+.nav{
+    background-color: rgba(255, 255, 255, 0.7);
+
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 0;
+
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
+}
+
+.nav-item{
+    margin: 1em;
+}

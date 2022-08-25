@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.educations {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../../assets/educations-hero.png') no-repeat center center/cover;
+    border-top: 14px ridge #85F4FF;
+    border-radius: 14px 23px 0px 0px;
+}
+
+.education-list {
+    width: 35%;
+    height: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #85F4FF solid 1px;
+    position: absolute;
+    left: 25%;
+    top: 140%;
+    border-radius: 9px 40px 40px 9px;
+}
+
+.education-list:hover {
+    background-color: rgba(175,238,238,0.5);
+}
+
+.education-list:hover h3 {
+    color: #383838;
+}
+
+.education-list:hover p {
+    color: #383838;
+}
+
+.education-list h3{
+    color: #eee;
+    font-family: 'Roboto Condensed', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+    border: 1px solid #85F4FF;
+    color: #ffffff;
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    right: 10%;
+    top: 111%;
+    border-radius: 40px 9px 9px 40px;
+}
+
+.card:hover {
+    background-color: rgba(175,238,238,0.5);
+}
+
+.card:hover h3 {
+    color: rgb(37, 37, 37);
+}
+
+.card:hover p {
+    color: rgb(37, 37, 37);
+}
+
+.card:hover select {
+    color: rgb(37, 37, 37);
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+
+.card .bar {
+    border-bottom: 1px solid #85F4FF;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.selectors {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem auto;
+}
+
+.educations p {
+    color: #eee;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.card .btn {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.btn:hover {
+    background-color: #0c7781;
+    color: #fff;
+}
+
+.selection {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 50px;
+    padding: 10px 38px 10px 16px;
+    background: #fff;
+    background-size: 10px;
+    transition: border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align-last:center;
+    padding: 10px;
+
+}
+.selection:hover {
+    border: 1px solid #999;
+}
+.selection:focus {
+    border: 1px solid #999;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+    outline: none;
+}
+
+@media screen and (max-width: 980px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

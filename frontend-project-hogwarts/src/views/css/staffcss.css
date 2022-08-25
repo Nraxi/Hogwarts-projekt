@@ -1,0 +1,109 @@
+.Staff{
+    padding-top: 100px;
+    background: url('../../assets/dumbeloffice.jpeg') no-repeat center center/cover;
+    text-align: center;
+    color: rgba(248, 248, 248, 0.854);
+}
+
+.blackbox{
+    background-color: rgba(243, 243, 243, 0);
+    display: block;
+    padding: 0px;
+    margin-top: 10px;
+}
+.two{
+    text-align: start;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.435);
+    display: block;
+    padding: 10px;
+}
+
+.formstaff{
+    padding-top: 15px;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.staff-input1{
+    
+    margin-top: 20px;
+    margin-left: 68px;
+    margin-bottom: 3px;
+    width: 14%;
+}
+
+.staff-input2{
+    margin-left: 70px;
+    margin-bottom: 3px;
+    width: 14%;
+}
+
+.staff-input3{
+    width: 14%;
+    margin-left: 98px;
+    margin-bottom: 3px;
+}
+
+.staff-input4{
+    width: 14%;
+    margin-left: 47px;
+    margin-bottom: 3px;
+}
+
+.staff-input5{
+    width: 14%;
+    margin-left: 70px;
+    padding-right: 58px;
+    margin-bottom: 3px;
+}
+.staff-input6{
+    width: 14%;
+    margin-left: 120px;
+}
+.buttonstaffadd{
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.buttonstaffdelete{
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.buttonstaffUpdate{
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+
+
+.buttonstaffread{
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.personallistavisa{
+    list-style-type: none;
+    background-color: rgba(243, 243, 243, 0.104);
+}
+
+.listavisah1{
+    text-align: center;
+}
+
+.listavisasteg{
+    padding-top: 12px;
+    text-align: start;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
